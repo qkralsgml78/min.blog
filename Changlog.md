@@ -8,3 +8,6 @@
 
 ## 20240219
 - [ ] nGrinder compose Test
+
+## 20240220
+- [ ] manual-lb
