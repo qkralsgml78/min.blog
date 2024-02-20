@@ -30,7 +30,7 @@ sudo docker build -t lb -f docker/lb/Dockerfile docker/lb
 
 figlet run
 # lb
-sudo docker run -d --name lb-1 -p 8003:80 lb
+sudo docker run -itd --name lb-1 -p 8003:80 lb
 # lb network connect
 sudo docker network connect abc lb-1
 
